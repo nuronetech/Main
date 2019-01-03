@@ -123,7 +123,7 @@ public:
         /** Height or Time Based Activations **/
         nLastPOWBlock = 500000;
         nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 300;
+        nZerocoinStartHeight = 999999999;
         nAccumulatorStartHeight = 1;
         nZerocoinStartTime = 1546332732; // 5 - Oct - 2018
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
