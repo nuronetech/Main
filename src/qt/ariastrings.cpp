@@ -35,7 +35,7 @@ QT_TRANSLATE_NOOP("aria-core", ""
 QT_TRANSLATE_NOOP("aria-core", ""
 "Calculated accumulator checkpoint is not what is recorded by block index"),
 QT_TRANSLATE_NOOP("aria-core", ""
-"Cannot obtain a lock on data directory %s. AriA Core is probably already "
+"Cannot obtain a lock on data directory %s. rTw Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("aria-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -180,9 +180,9 @@ QT_TRANSLATE_NOOP("aria-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"AriA Alert\" admin@foo.com\n"),
+"for example: alertnotify=echo %%s | mail -s \"rTw Alert\" admin@foo.com\n"),
 QT_TRANSLATE_NOOP("aria-core", ""
-"Unable to bind to %s on this computer. AriA Core is probably already running."),
+"Unable to bind to %s on this computer. rTw Core is probably already running."),
 QT_TRANSLATE_NOOP("aria-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("aria-core", ""
@@ -259,7 +259,7 @@ QT_TRANSLATE_NOOP("aria-core", "Connection options:"),
 QT_TRANSLATE_NOOP("aria-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("aria-core", "Copyright (C) 2014-%i The Dash Core Developers"),
 QT_TRANSLATE_NOOP("aria-core", "Copyright (C) 2015-%i The PivX Core Developers"),
-QT_TRANSLATE_NOOP("aria-core", "Copyright (C) 2018-%i The AriA Core Developers"),
+QT_TRANSLATE_NOOP("aria-core", "Copyright (C) 2018-%i The Goddess Developers"),
 QT_TRANSLATE_NOOP("aria-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("aria-core", "Could not parse -rpcbind value %s as network address"),
 QT_TRANSLATE_NOOP("aria-core", "Could not parse masternode.conf"),
@@ -320,7 +320,7 @@ QT_TRANSLATE_NOOP("aria-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("aria-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("aria-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("aria-core", "Information"),
-QT_TRANSLATE_NOOP("aria-core", "Initialization sanity check failed. AriA Core is shutting down."),
+QT_TRANSLATE_NOOP("aria-core", "Initialization sanity check failed. rTw Core is shutting down."),
 QT_TRANSLATE_NOOP("aria-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("aria-core", "Insufficient funds"),
 QT_TRANSLATE_NOOP("aria-core", "Insufficient funds."),
@@ -474,7 +474,7 @@ QT_TRANSLATE_NOOP("aria-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("aria-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("aria-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("aria-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("aria-core", "Wallet needed to be rewritten: restart AriA Core to complete"),
+QT_TRANSLATE_NOOP("aria-core", "Wallet needed to be rewritten: restart rTw Core to complete"),
 QT_TRANSLATE_NOOP("aria-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("aria-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("aria-core", "Warning"),

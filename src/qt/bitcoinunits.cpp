@@ -43,13 +43,13 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case AriA:
-        return QString("BV1");
+        return QString("RTW");
     //case nAriA:
         //return QString("nAriA");
     case mAriA:
-        return QString("mBV1");
+        return QString("mRTW");
     case uAriA:
-        return QString::fromUtf8("uBV1");
+        return QString::fromUtf8("uRTW");
     default:
         return QString("???");
     }
@@ -60,26 +60,26 @@ QString BitcoinUnits::name(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case AriA:
-            return QString("BV1");
+            return QString("RTW");
         //case nAriA:
             //return QString("nAriA");
         case mAriA:
-            return QString("mBV1");
+            return QString("mRTW");
         case uAriA:
-            return QString::fromUtf8("μBV1");
+            return QString::fromUtf8("μRTW");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case AriA:
-            return QString("tAriA");
+            return QString("tRTW");
         case nAriA:
-            return QString("ntAriA");
+            return QString("ntRTW");
         case mAriA:
-            return QString("mtAriA");
+            return QString("mtRTW");
         case uAriA:
-            return QString::fromUtf8("μtAriA");
+            return QString::fromUtf8("μtRTW");
         default:
             return QString("???");
         }
@@ -91,26 +91,26 @@ QString BitcoinUnits::description(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case AriA:
-            return QString("BV1");
+            return QString("RTW");
         //case nAriA:
             //return QString("Nano-AriA (1 / 1" THIN_SP_UTF8 "0)");
         case mAriA:
-            return QString("Milli-BV1 (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-RTW (1 / 1" THIN_SP_UTF8 "000)");
         case uAriA:
-            return QString("Micro-BV1 (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-RTW (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case AriA:
-            return QString("TestBV1s");
+            return QString("TestRTWs");
         //case nAriA:
             //return QString("Nano-TestAriA (1 / 1" THIN_SP_UTF8 "0)");
         case mAriA:
-            return QString("Milli-TestBV1 (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestRTW (1 / 1" THIN_SP_UTF8 "000)");
         case uAriA:
-            return QString("Micro-TestBV1 (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestRTW (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
